@@ -18,7 +18,7 @@ Para se fazer a instalação, basta copiar o diretório de download para a `site
 
 ## Como informar Bugs
 
-Qualquer identificação de `BUGs`, por favor entrar em contato com brumazzi_daniel@yahoo.com.br
+Qualquer identificação de `BUGs`, por favor entrar em contato com brumazzi_daniel@yahoo.com.br.
 
 ## Autor(es)
 
