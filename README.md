@@ -18,7 +18,7 @@ Para se fazer a instalação, basta copiar o diretório de download para a `site
 ## Documentação
 
 ```
-`Classe` HTMLContent - Tipo `object`
+Classe HTMLContent - Tipo `object`
   Método __init__ - Parâmetros: `Sem parâmetros` - Retorno: `Sem retorno`
   Método create - Parâmetros: [`string`:`tag`], [`bool keyword`:`required = (default = False)`], [`keyword`:`**properts`] - Retorno : `self`
     `tag` : Tag html a ser criada.
@@ -32,12 +32,14 @@ Para se fazer a instalação, basta copiar o diretório de download para a `site
   Método get_page_min : Parâmetros: `Sem parâmetros` - Retorno: `unicode string`
   Método cursor : Parâmetros: `Sem parãmetros` - Retorno: `unicode string`
 
-`Classe` Route - Tipo `object`
+Classe Route - Tipo `object`
   Método __init__ - Parâmetros: `Sem parãmetros` - Retorno: `Sem retorno`
   Método new_route - Parâmetros: [`string`:`fname`], [`string`:`path`], [`string`:`alias`] - Retorno : `Sem retorno`
   Método call - Parâmetros: [`string`:`alias`], [`keyword`:`**vars`] - Retorno: `string`
 
-### HTMLContent
+------------------------------------------------------------------------------------------------------
+
+HTMLContent
   `create`	- Cria um novo bloco de `tags` HTML.
   `close`	- Fecha um bloco HTML.
   `end_page`	- Fecha todos os blocos abertos.
@@ -46,18 +48,18 @@ Para se fazer a instalação, basta copiar o diretório de download para a `site
   `get_page_min`- Retorna a página HTML sem espaçamento e quebra de linhas.
   `cursor`	- Retorna a `tag` atualmente aberta.
 
-### Route
+Route
   `new_route`	- Cria uma nova rota para o arquivo `html`.
   `call`	- Carrega o arquivo `html` substituindo as variáveis pelas `keywords` e retorna o conteúdo página.
 ```
 
 ## Como informar Bugs
 
-Qualquer identificação de `BUGs`, por favor entrar em contato com `brumazzi_daniel@yahoo.com.br`.
+Qualquer identificação de `BUGs`, por favor entrar em contato com brumazzi_daniel@yahoo.com.br.
 
 ## Autor(es)
 
-* [Daniel Borges Brumazzi] [1]
+`Daniel Borges Brumazzi`
 
 ## Copyright
 
