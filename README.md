@@ -61,6 +61,12 @@ Qualquer identificação de `BUGs`, por favor entrar em contato com brumazzi_dan
 
 `Daniel Borges Brumazzi`
 
+## Redes Socíais
+
+<a href="https://www.facebook.com/daniel.brumazzi">Facebook</a>
+<a href="https://plus.google.com/+DanielBrumazzi">Google+</a>
+<a href="https://twitter.com/brumazzi_daniel">Twitter</a>
+
 ## Copyright
 
 ---
