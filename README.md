@@ -2,7 +2,7 @@
 
 ## Descrição
 
-HTMLGen, é um gerador de aquivos "html", podendo ser usado em framewoks de desenvolvimento web para gerar páginas dinâmicas de meio rápido, prático e fácil.
+HTMLGen, é um gerador de aquivos `html`, podendo ser usado em framewoks de desenvolvimento web para gerar páginas dinâmicas de meio rápido, prático e fácil.
 
 ## Instalação
 
@@ -18,12 +18,11 @@ Para se fazer a instalação, basta copiar o diretório de download para a `site
 
 ## Como informar Bugs
 
-Qualquer identificação de `BUGs`, por favor entrar em contato:
-E-Mail: brumazzi_daniel@yahoo.com.br
+Qualquer identificação de `BUGs`, por favor entrar em contato com brumazzi_daniel@yahoo.com.br
 
 ## Autor(es)
 
-Daniel Borges Brumazzi
+`Daniel Borges Brumazzi`
 
 ## Copyright
 
