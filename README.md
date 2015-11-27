@@ -57,7 +57,7 @@ Qualquer identificação de `BUGs`, por favor entrar em contato com `brumazzi_da
 
 ## Autor(es)
 
-*[`Daniel Borges Brumazzi`][1]
+* [Daniel Borges Brumazzi] [1]
 
 ## Copyright
 
