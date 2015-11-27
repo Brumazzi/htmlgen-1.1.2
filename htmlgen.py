@@ -68,6 +68,7 @@ class HTMLContent(object):
     def end_page(self):
         while(len(self.vcursor) != 0):
             self.close()
+        return self
 
     # Inseri conteudo dentro da tag atual
     def innerHTML(self, context):

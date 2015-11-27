@@ -8,7 +8,7 @@ class Route(object):
         self.rfile = {}
 
     # Armazena o caminho do arquivo html
-    def new_route(self,fname,path,alias):
+    def new_route(self, fname, path, alias):
         self.rfile[alias] = (
             fname,
             path,
@@ -16,10 +16,10 @@ class Route(object):
 
     # Escreve o arquivo caso exista.
     # Se o arquivo não existir, escreve uma mensagem de erro
-    def call(self,alias,**vars):
+    def call(self, alias, **vars):
         opt = self.rfile[alias]
         try:
-            file = open(opt[1]+opt[0],'r')
+            file = open(opt[1] + opt[0], 'r')
         except:
             return '<p>Can\'t be find <span style="color: red;">%s</span></p>' %(opt[0])
 
@@ -27,7 +27,7 @@ class Route(object):
         file.close()
 
         for x in vars:
-            if html.count("{{"+str(x)+"}}") > 0:
+            if html.count("{{" + str(x) + "}}") > 0:
                 html = html.replace("{{%s}}" %(x), vars[x])
             if html.count("{{ "+str(x)+" }}") > 0:
                 html = html.replace("{{ %s }}" %(x), vars[x])
