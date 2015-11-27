@@ -17,6 +17,7 @@ Para se fazer a instalação, basta copiar o diretório de download para a `site
 
 ## Documentação
 
+```
 `Classe` HTMLContent - Tipo `object`
   Método __init__ - Parâmetros: `Sem parâmetros` - Retorno: `Sem retorno`
   Método create - Parâmetros: [`string`:`tag`], [`bool keyword`:`required = (default = False)`], [`keyword`:`**properts`] - Retorno : `self`
@@ -48,6 +49,7 @@ Para se fazer a instalação, basta copiar o diretório de download para a `site
 ### Route
   `new_route`	- Cria uma nova rota para o arquivo `html`.
   `call`	- Carrega o arquivo `html` substituindo as variáveis pelas `keywords` e retorna o conteúdo página.
+```
 
 ## Como informar Bugs
 
